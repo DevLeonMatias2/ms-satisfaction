@@ -8,4 +8,5 @@ import org.springframework.stereotype.Repository;
 public interface ClientDao extends MongoRepository<Client, String> {
 
     Client findByEmail(String email);
+    
 }
